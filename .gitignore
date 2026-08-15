@@ -1,0 +1,27 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+.pnpm-store/
+.turbo/
+.next/
+dist/
+build/
+coverage/
+playwright-report/
+test-results/
+
+# Logs and local files
+*.log
+.DS_Store
+.agents/
+.claude/
+.codex/
+.vercel/
+
+# Never commit production, student, or sensitive data
+data/production/
+uploads/
